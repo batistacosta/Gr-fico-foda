@@ -1,3 +1,4 @@
+const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json'
 
 async function vizualizarInformacoesGlobais() {
     const res = await fetch(url)
@@ -16,4 +17,4 @@ async function vizualizarInformacoesGlobais() {
     container.appendChild(paragrafo)
 }
 
-vizualizarInformacoesGlobais()
+vizualizarInformaçoesglobais()
